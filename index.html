@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop To Win</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="win">
+      <h1>YOU WIN!</h1>
+      <button class="restart-btn">Try Again</button>
+    </div>
+    <div class="lose">
+      <h1>YOU LOSE!</h1>
+      <button class="restart-btn">Try Again</button>
+    </div>
+    <div class="timer-container">
+      <div class="timer-box">
+        <div class="numbers">
+          <h2 class="min">00</h2>
+          <span><strong>:</strong></span>
+          <h2 class="sec">00</h2>
+          <span><strong>:</strong></span>
+          <h2 class="ms">00</h2>
+        </div>
+      </div>
+      <button id="start" class="start-btn">START</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
