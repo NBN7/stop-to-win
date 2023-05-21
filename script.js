@@ -20,12 +20,7 @@ startBtn.addEventListener("click", () => {
 
 restartBtn.forEach((element) => {
   element.addEventListener("click", () => {
-    win.style.display = "none";
-    lose.style.display = "none";
-    (mins = 0), (secs = 0), (mss = 0);
-    min.textContent = "00";
-    sec.textContent = "00";
-    ms.textContent = "00";
+    location.reload();
   });
 });
 
